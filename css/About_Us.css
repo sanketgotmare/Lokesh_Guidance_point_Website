@@ -1,0 +1,136 @@
+/* Global Section Styling */
+.about-us-modern {
+    background: #f5f7fa; /* Keeping the same background color */
+    padding: 60px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .about-us-modern .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .about-us-modern .text-content {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-us-modern h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #2c3e50; /* Dark grey color for heading */
+    margin-bottom: 20px;
+  }
+  
+  .about-us-modern h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #34495e; /* Slightly lighter dark color for sub-headings */
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .about-us-modern p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #7f8c8d; /* Light grey color for body text */
+    margin-bottom: 20px;
+  }
+  
+  .about-us-modern ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about-us-modern ul li {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #34495e; /* Lighter text color for list items */
+  }
+  
+  .about-us-modern ul li strong {
+    font-weight: 600;
+    color: #1abc9c; /* Fresh green for emphasis */
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #1abc9c; /* Fresh green color for CTA button */
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 30px;
+  }
+  
+  .cta-button:hover {
+    background-color: #16a085; /* Darker green on hover */
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-us-modern {
+      padding: 40px 15px;
+    }
+  
+    .about-us-modern h2 {
+      font-size: 2rem;
+    }
+  
+    .about-us-modern h3 {
+      font-size: 1.5rem;
+    }
+  
+    .about-us-modern p {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  
+    .about-us-modern ul li {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-us-modern {
+      padding: 30px 10px;
+    }
+  
+    .about-us-modern h2 {
+      font-size: 1.8rem;
+    }
+  
+    .about-us-modern h3 {
+      font-size: 1.4rem;
+    }
+  
+    .about-us-modern p {
+      font-size: 0.95rem;
+    }
+  
+    .cta-button {
+      padding: 8px 18px;
+      font-size: 0.95rem;
+    }
+  
+    .about-us-modern ul li {
+      font-size: 0.95rem;
+    }
+  }
+  
