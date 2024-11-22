@@ -1,0 +1,55 @@
+/* Top Header Styles */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background: linear-gradient(90deg, #3b5998, #dd5144);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 40px; /* Reduced height */
+  }
+  
+  .contact-info {
+    display: flex;
+    gap: 15px; /* Spacing between phone and email */
+  }
+  
+  .contact-info i {
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px; /* Slightly smaller icons */
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ffd700; /* Gold color for hover effect */
+    transform: scale(1.1);
+  }
+  
+  /* Optional Media Query for Small Screens */
+  @media (max-width: 768px) {
+    .contact-info {
+      flex-direction: column; /* Stack phone and email on smaller screens */
+      align-items: flex-start;
+    }
+    .top-header {
+      height: auto; /* Adjust height for smaller devices */
+      padding: 10px;
+    }
+  }
+  

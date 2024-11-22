@@ -1,0 +1,114 @@
+/* General Styling */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f9fa; /* Light gray for consistency */
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+  }
+  
+  .hero-slider {
+    display: flex;
+    animation: slide 15s infinite;
+  }
+  
+  .hero-slide {
+    min-width: 100%;
+    position: relative;
+  }
+  
+  .hero-slide img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .hero-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero-caption h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero-caption p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #357abd;
+  }
+  
+  /* Animation for the slider */
+  @keyframes slide {
+    0%, 33.33% {
+      transform: translateX(0);
+    }
+    33.34%, 66.66% {
+      transform: translateX(-100%);
+    }
+    66.67%, 100% {
+      transform: translateX(-200%);
+    }
+  }
+  
+  /* Updated Color Palette for Sections */
+  header, .top-header {
+    background: linear-gradient(90deg, #4a90e2, #9a77cf);
+  }
+  
+  .greeting-section, .highlight-bar {
+    background: #eaf4fc;
+  }
+  
+  .about-us-modern {
+    background: #fdf3e3;
+  }
+  
+  .review-section {
+    background: #f5f5f5;
+  }
+  
+  .schedule-section {
+    background: #eaf4fc;
+  }
+  
+  .classes-section {
+    background: #fdf3e3;
+  }
+  
+  .section h2 {
+    color: #4a90e2;
+  }
+  
+  
